@@ -4,4 +4,4 @@ bins = columns/200;
 
 rng(now);
 list = 200*rand(rows,columns);
-hist(list,bins)
+histogram(list,bins)
